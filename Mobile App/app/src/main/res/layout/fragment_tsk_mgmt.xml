@@ -1,0 +1,21 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layout_tsk_mgmt"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.jobreporting.views.TskMgmtActivityFragment"
+    tools:showIn="@layout/activity_tsk_mgmt">
+
+    <ListView
+        android:id="@+id/listview_tsk_mgmt"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:dividerHeight="1sp"
+        android:headerDividersEnabled="false"
+        android:footerDividersEnabled="false"
+        android:background="#ECEFF1">
+
+    </ListView>
+
+
+</FrameLayout>

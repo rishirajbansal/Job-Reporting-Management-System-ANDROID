@@ -1,0 +1,124 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.jobreporting.views.AuthActivityFragment"
+    android:layout_gravity="center_vertical"
+    android:orientation="vertical"
+    android:id="@+id/layout_home"
+    tools:showIn="@layout/activity_auth">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView_auth"
+        android:layout_gravity="center_horizontal" >
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:paddingTop="20dp"
+            android:id="@+id/scrollView_layout_auth"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/label_auth_org_name"
+                android:fontFamily="sans-serif"
+                android:textSize="18sp"
+                android:layout_gravity="center"
+                android:text="@string/label_auth_org_name"
+                android:textColor="#275b89"
+                android:paddingTop="50dp"
+                android:paddingBottom="20dp"
+                />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:id="@+id/text_auth_org_name"
+                android:textSize="18sp"
+                android:background="@drawable/auth_edittextviews" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/label_auth_wrk_name"
+                android:layout_gravity="center"
+                android:fontFamily="sans-serif"
+                android:textSize="18sp"
+                android:text="@string/label_auth_wrk_name"
+                android:textColor="#275b89"
+                android:paddingTop="50dp"
+                android:paddingBottom="20dp"
+                />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:id="@+id/text_auth_wrk_name"
+                android:textSize="18sp"
+                android:background="@drawable/auth_edittextviews"
+                />
+
+            <ProgressBar
+                android:id="@+id/progressBar_auth"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_marginBottom="35dp"
+                android:indeterminate="true"
+                android:visibility="gone"/>
+
+
+            <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/layout_home_btns"
+                android:layout_gravity="center_horizontal"
+                android:orientation="horizontal"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="100dp"
+                android:paddingBottom="50dp">
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/btn_auth_reset"
+                    android:text="@string/btn_auth_reset"
+                    android:fontFamily="sans-serif"
+                    android:layout_gravity="center"
+                    android:textSize="18sp"
+                    android:textColor="#FFFFFF"
+                    android:background="@drawable/auth_buttons_reset"/>
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/btn_auth_submit"
+                    android:text="@string/btn_auth_submit"
+                    android:fontFamily="sans-serif"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="20dp"
+                    android:textSize="18sp"
+                    android:textColor="#FFFFFF"
+                    android:background="@drawable/auth_buttons_submit"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

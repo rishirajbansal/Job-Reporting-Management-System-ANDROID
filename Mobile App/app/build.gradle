@@ -1,0 +1,57 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 23
+    buildToolsVersion '23.0.3'
+    defaultConfig {
+        applicationId "com.jobreporting"
+        minSdkVersion 11
+        targetSdkVersion 23
+        versionCode 1
+        versionName "1.0"
+        //multiDexEnabled true
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    productFlavors {
+    }
+    /*dexOptions {
+        javaMaxHeapSize "4g"
+        preDexLibraries false
+        incremental true
+    }*/
+
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    testCompile 'junit:junit:4.12'
+    compile 'com.android.support:appcompat-v7:23.4.0'
+    compile 'com.android.support:design:23.4.0'
+    //compile 'com.android.support:multidex:1.0.1'
+    //compile files('libs/jersey-bundle-1.16.jar')
+    //compile files('libs/controller.jar')
+    //compile files('libs/jersey-client-1.16.jar')
+    //compile files('libs/jaxb-api-2.2.12.jar')
+    //compile files('libs/jaxb-api-2.2.12.jar')
+    //compile 'javax.xml.bind:jaxb-api-2.2.12:2.2.12'
+    //compile files('libs/jaxb-api-2.2.12.jar')
+    //compile files('libs/jersey-bundle-1.16.jar')
+    //compile files('libs/jersey-client-1.16.jar')
+    //compile 'javax.ws.rs:jersey-bundle:1.16'
+    //compile files('libs/controller.jar')
+    //compile 'javax.xml.bind:jaxb-api:2.2.12'
+    //compile project(':jaxb-api-2.2.12')
+    //compile files('libs/jersey-bundltransfer-objs.jare-1.16.jar')
+    //compile files('libs/jersey-bundle-1.16.jar')
+    //provided files('libs/jaxb-api-2.2.12.jar')
+    //provided files('libs/javax.xml.stream.jar')
+    compile 'com.facebook.stetho:stetho:1.4.1'
+    compile 'com.facebook.stetho:stetho-okhttp3:1.4.1'
+    compile 'com.github.gcacace:signature-pad:1.2.0'
+}

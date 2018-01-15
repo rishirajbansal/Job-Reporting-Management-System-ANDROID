@@ -1,0 +1,81 @@
+<resources>
+
+    <string name="app_name">9Forms</string>
+    <string name="title_activity_auth">Autenticación única</string>
+    <string name="action_settings">ajustes</string>
+    <string name="title_activity_home">&#160;Partes de Trabajo</string>
+    <string name="title_activity_prds_mgmt">Catálogo de productos</string>
+    <string name="title_activity_prd_details">Detalles del producto</string>
+    <string name="title_activity_cstmr_details">Cliente Detalles</string>
+    <string name="title_activity_cstmr_mgmt">"Lista de Clientes "</string>
+    <string name="title_activity_tsk_mgmt">Lista de Tareas</string>
+    <string name="title_activity_tsk_details">Tareas Detalles</string>
+    <string name="title_activity_rpt_form">Enviar Parte</string>
+    <string name="title_activity_server_error">Error del Servidor</string>
+
+    <!-- Auth Activity -->
+    <string name="label_auth_org_name">Nombre Empresa:</string>
+    <string name="label_auth_wrk_name">Nombre Trabajador :</string>
+    <string name="btn_auth_reset">Reiniciar</string>
+    <string name="btn_auth_submit">Enviar</string>
+    <string name="progress_auth">Autenticando...</string>
+    <string name="no_connectivity_title_alert_auth">No hay conexión a Internet</string>
+    <string name="no_connectivity_message_alert_auth">¡Lo siento! No se puede conectar con el servidor. \n\nPor favor, revisa la conexión a Internet y vuelve a intentarlo. </string>
+
+    <!-- Home Activity -->
+    <string name="btn_home_prd_details">Ver Productos</string>
+    <string name="btn_home_subReport">Enviar Parte</string>
+    <string name="btn_home_cstmr_details">Ver Clientes</string>
+    <string name="btn_home_tsk_details">Asignado  Tareas</string>
+
+    <!-- Prd Details Activity -->
+    <string name="data_not_avialable">No Disponible</string>
+
+
+    <!-- Server Error Activity -->
+    <string name="label_server_error_code">Código</string>
+    <string name="label_server_message">Mensaje del servidor para el usuario</string>
+    <string name="label_server_error">Error del Servidor</string>
+    <string name="label_server_error_occurred">Ocurrió</string>
+
+    <!-- Report Form Activity -->
+    <string name="btn_rpt_form_save">Enviar</string>
+    <string name="btn_rpt_form_reset">Reiniciar</string>
+    <string name="btn_rpt_form_dyna_imageUpload">Selecciona Imagen..</string>
+    <string name="text_imageUpload_label_photoSelected">Selección guardada</string>
+    <string name="rpt_form_heading">Por favor, rellena los siguientes datos :</string>
+    <string name="rpt_data_empty_title_alert">Error de validacion</string>
+    <string name="rpt_data_empty_message_alert">Todos los campos del parte están en blanco,  no se puede enviar un parte vacío.</string>
+    <string name="rpt_data_invalid_title_alert">Error de datos no válido</string>
+    <string name="rpt_data_invalid_message_alert">No se puede enviar el informe, hay errores en los datos del informe. Por favor corrija los errores en las marcas rojas (s) por encima y vuelve a intentarlo.</string>
+    <string name="rpt_form_spinner_initialvalue">Seleccionar</string>
+    <string name="rpt_form_doubletap_hint">Doble toque para Seleccionar...</string>
+    <string name="rpt_form_signpad">Firma del cliente</string>
+    <string name="rpt_form_signpad_clear_btn">Limpiar</string>
+    <string name="text_imageUpload_selectImage">Selecciona Foto</string>
+
+
+    <!-- Notifications -->
+    <string name="notify_report_cTitle">Parte enviado correctamente</string>
+    <string name="notify_report_cText">Nombre del parte generado :&#160;</string>
+
+    <!-- Toast -->
+    <string name="toast_message_authenticated">Autenticado con éxito.</string>
+    <string name="toast_message_submit_report">Tu parte ha sido guardado y está siendo enviado. Recibirás una notificación cuando se haya enviado.</string>
+
+    <!-- Location Detection -->
+    <string name="location_detect_title">No se puede detectar la localización</string>
+    <string name="location_detect_message">La localización GPS no está habilitada en tu teléfono. ¿Quieres ir al menú de configuración GPS?</string>
+    <string name="location_btn_settings">Ajustes</string>
+    <string name="location_btn_cancel">Cancelar</string>
+
+    <!-- Application Errors -->
+    <string name="not_connect_server_title_auth">Error de conexión</string>
+    <string name="not_connect_server_message_auth">Problemas de conexión con el servidor, no se puede establecer la comunicación.\n\nPor favor, póngase en contacto con el administrador.</string>
+
+    <!-- Application Errors -->
+    <string name="validation_alphanumeric_notAcceptableChars">¡Lo siento! dos puntos (:) vertical (|) coma (,) punto y coma (;), mayor que (&gt;) menor a continuación (&lt;) No se admiten.</string>
+
+
+
+</resources>

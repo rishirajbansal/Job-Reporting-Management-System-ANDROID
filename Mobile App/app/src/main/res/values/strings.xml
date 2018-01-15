@@ -1,0 +1,82 @@
+<resources>
+
+    <string name="app_name">9Forms</string>
+    <string name="title_activity_auth">One Time Authentication</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_home">&#160;Job Reporting</string>
+    <string name="title_activity_prds_mgmt">Products Catalogue</string>
+    <string name="title_activity_prd_details">Product Details</string>
+    <string name="title_activity_cstmr_mgmt">Clients List</string>
+    <string name="title_activity_cstmr_details">Client Details</string>
+    <string name="title_activity_tsk_mgmt">Tasks List</string>
+    <string name="title_activity_tsk_details">Task Details</string>
+    <string name="title_activity_rpt_form">Submit Report</string>
+    <string name="title_activity_server_error">Server Error</string>
+
+
+    <!-- Auth Activity -->
+    <string name="label_auth_org_name">Organization Name :</string>
+    <string name="label_auth_wrk_name">Worker Name :</string>
+    <string name="btn_auth_reset">Reset</string>
+    <string name="btn_auth_submit">Submit</string>
+    <string name="progress_auth">Authenticating...</string>
+    <string name="no_connectivity_title_alert_auth">Internet Connectivity not found</string>
+    <string name="no_connectivity_message_alert_auth">Sorry! Your details cannot be authenticated with the server as the connectivity is not available.\n\nPlease connect your phone with the Internet and try again. </string>
+
+    <!-- Home Activity -->
+    <string name="btn_home_prd_details">Browse Products</string>
+    <string name="btn_home_cstmr_details">Browse Clients</string>
+    <string name="btn_home_subReport">Submit Report</string>
+    <string name="btn_home_tsk_details">Assigned Tasks</string>
+
+    <!-- Prd Details Activity -->
+    <string name="data_not_avialable">Not Available</string>
+
+
+    <!-- Server Error Activity -->
+    <string name="label_server_error_code">Code</string>
+    <string name="label_server_message">Server Message for User</string>
+    <string name="label_server_error">Server Error</string>
+    <string name="label_server_error_occurred">Occurred</string>
+
+    <!-- Report Form Activity -->
+    <string name="btn_rpt_form_save">Submit</string>
+    <string name="btn_rpt_form_reset">Reset</string>
+    <string name="btn_rpt_form_dyna_imageUpload">Choose Image..</string>
+    <string name="text_imageUpload_selectImage">Select Photo</string>
+    <string name="text_imageUpload_label_photoSelected">Selection Saved</string>
+    <string name="rpt_form_heading">Please fill the following details : </string>
+    <string name="rpt_data_empty_title_alert">Validation Error</string>
+    <string name="rpt_data_empty_message_alert">All fields of report form are blank, empty report cannot be submitted.</string>
+    <string name="rpt_data_invalid_title_alert">Invalid Data Error</string>
+    <string name="rpt_data_invalid_message_alert">Cannot submit the report, there are errors in the report data. Please fix the errors in red marks(s) above and try again.</string>
+    <string name="rpt_form_spinner_initialvalue">Select...</string>
+    <string name="rpt_form_doubletap_hint">Double tap to select...</string>
+    <string name="rpt_form_signpad">Client Signature</string>
+    <string name="rpt_form_signpad_clear_btn">Clear</string>
+
+
+    <!-- Notifications -->
+    <string name="notify_report_cTitle">Report Dispatched Successfully</string>
+    <string name="notify_report_cText">Generated Report Name :&#160;</string>
+
+    <!-- Toast -->
+    <string name="toast_message_submit_report">Your report has been saved and is being dispatched. You will receive a notification.</string>
+    <string name="toast_message_authenticated">Successfully Authenticated.</string>
+
+    <!-- Location Detection -->
+    <string name="location_detect_title">Not able to detect location</string>
+    <string name="location_detect_message">It seems GPS settings are not enabled on your phone. Do you want to go to GPS settings menu?</string>
+    <string name="location_btn_settings">Settings</string>
+    <string name="location_btn_cancel">Cancel</string>
+
+    <!-- Application Errors -->
+    <string name="not_connect_server_title_auth">Connection Error</string>
+    <string name="not_connect_server_message_auth">Connection issues with server, not able to connect with server, either server is down or there is some other issue.\n\nPlease contact your administrator with this message.</string>
+
+    <!-- Application Errors -->
+    <string name="validation_alphanumeric_notAcceptableChars">Sorry! colon(:) Pipe(|) comma(,) semicolon(;) greator then(&gt;) lesser then(&lt;) are not allowed.</string>
+
+
+
+</resources>

@@ -1,0 +1,131 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.jobreporting.views.ServerErrorActivityFragment"
+    android:layout_gravity="center_vertical"
+    android:orientation="vertical"
+    tools:showIn="@layout/activity_server_error"
+    android:id="@+id/layout_server_error">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView_server_error"
+        android:layout_gravity="center_horizontal" >
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:paddingTop="20dp"
+            android:id="@+id/scrollView_layout_server_error"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/label_server_error_code"
+                android:text="@string/label_server_error_code"
+                android:fontFamily="sans-serif"
+                android:textSize="18sp"
+                android:layout_gravity="center"
+                android:textStyle="bold"
+                android:textColor="#275b89" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/label_server_error_code_value"
+                android:fontFamily="sans-serif"
+                android:textSize="18sp"
+                android:layout_gravity="center"
+                android:textColor="#FF5252"
+                android:paddingLeft="10dp"
+                android:paddingTop="20dp"
+                android:paddingRight="5dp"
+                android:paddingBottom="30dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/label_server_message"
+                android:text="@string/label_server_message"
+                android:fontFamily="sans-serif"
+                android:textSize="18sp"
+                android:layout_gravity="center"
+                android:textStyle="bold"
+                android:textColor="#275b89" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/label_server_message_value"
+                android:fontFamily="sans-serif"
+                android:textSize="18sp"
+                android:layout_gravity="center"
+                android:textColor="#FF5252"
+                android:paddingLeft="10dp"
+                android:paddingTop="20dp"
+                android:paddingRight="5dp"
+                android:paddingBottom="30dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/label_server_error"
+                android:text="@string/label_server_error"
+                android:fontFamily="sans-serif"
+                android:textSize="18sp"
+                android:layout_gravity="center"
+                android:textStyle="bold"
+                android:textColor="#275b89" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/label_server_error_value"
+                android:fontFamily="sans-serif"
+                android:textSize="18sp"
+                android:layout_gravity="center"
+                android:textColor="#FF5252"
+                android:paddingLeft="10dp"
+                android:paddingTop="20dp"
+                android:paddingRight="5dp"
+                android:paddingBottom="30dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/label_server_error_occurred"
+                android:text="@string/label_server_error_occurred"
+                android:fontFamily="sans-serif"
+                android:textSize="18sp"
+                android:layout_gravity="center"
+                android:textStyle="bold"
+                android:textColor="#275b89" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/label_server_error_occurred_value"
+                android:fontFamily="sans-serif"
+                android:textSize="18sp"
+                android:layout_gravity="center"
+                android:textColor="#FF5252"
+                android:paddingLeft="10dp"
+                android:paddingTop="20dp"
+                android:paddingRight="5dp"
+                android:paddingBottom="30dp" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>
